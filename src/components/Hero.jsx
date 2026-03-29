@@ -6,7 +6,7 @@ export default function Hero() {
           Google AI 바이브코딩
         </div>
 
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6 text-brand-text tracking-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-brand-text tracking-tight">
           노코딩으로 무엇이든 만드는
           <br />
           <span className="text-brand-primary">새로운 AI 세상</span>

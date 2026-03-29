@@ -26,7 +26,7 @@ export default function Instructor() {
         </div>
 
         <div className="pt-5 space-y-3">
-          <p className="text-[13px] sm:text-[17px] text-gray-600 leading-relaxed">
+          <p className="text-[15px] sm:text-[17px] text-gray-600 leading-relaxed">
             현장 중심의 실습 커리큘럼을 개발하는 AI활용 전문강사,<br />
             누구나 AI로 무언가를 만들 수 있도록<br />수업을 설계하고 진행합니다.
           </p>

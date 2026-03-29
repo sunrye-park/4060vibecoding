@@ -18,7 +18,7 @@ function Field({ label, error, children }) {
     <div className="group">
       <div className="flex items-baseline justify-between mb-1">
         <label className="text-[11px] font-semibold tracking-widest text-gray-400 uppercase">
-          {label}
+          {label}<span className="text-red-500 ml-0.5">*</span>
         </label>
         {error && <span className="text-[11px] text-red-400">{error}</span>}
       </div>
@@ -156,7 +156,7 @@ export default function RegistrationForm() {
                 <button type="button" onClick={() => setShowPrivacy(true)}
                   className="underline underline-offset-2 hover:text-gray-900 transition-colors">
                   개인정보 수집 및 이용
-                </button>
+                </button><span className="text-red-500 ml-0.5">*</span>
                 에 동의합니다
                 {errors.privacy && <span className="ml-2 text-red-400">{errors.privacy}</span>}
               </span>

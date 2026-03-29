@@ -15,14 +15,15 @@ export default function TargetAudience() {
           <div>
             <p className="text-[13px] font-semibold tracking-widest text-gray-400 uppercase mb-1">Who it's for</p>
             <h2 className="text-4xl font-bold text-gray-900 tracking-tight">이런 분께 추천합니다</h2>
+            <span className="text-sm text-gray-400 mt-1 block sm:hidden">코딩 경험 불필요</span>
           </div>
-          <span className="text-sm text-gray-400 mb-1">코딩 경험 불필요</span>
+          <span className="text-sm text-gray-400 mb-1 hidden sm:block">코딩 경험 불필요</span>
         </div>
 
         {/* 항목 */}
         <div className="space-y-0">
           {items.map((text, i) => (
-            <div key={i} className="flex items-baseline gap-4 py-3.5 border-b border-gray-200 last:border-b-0">
+            <div key={i} className="flex items-baseline gap-4 py-2 border-b border-gray-200 last:border-b-0">
               <span className="text-[13px] font-semibold text-gray-300 tabular-nums flex-shrink-0 w-6">
                 {String(i + 1).padStart(2, '0')}
               </span>

@@ -3,8 +3,6 @@ import { useState } from 'react'
 export default function CompletionScreen({ name, course, price, phone }) {
   const [copied, setCopied] = useState(false)
 
-  const lastFour = phone.replace(/-/g, '').slice(-4)
-  const depositorName = `${name}${lastFour}`
   const accountNumber = '1013-01-0607936'
   const bankName = '전북은행'
   const accountHolder = '(사)한국평생교육 에이치알디 진흥협회'
@@ -32,8 +30,8 @@ export default function CompletionScreen({ name, course, price, phone }) {
       <div className="max-w-lg mx-auto">
         <div className="bg-white rounded-2xl p-8 sm:p-10 border border-sage-200 shadow-lg text-center">
           <div className="text-5xl mb-4">✅</div>
-          <h2 className="text-2xl font-bold mb-2">{name}님, 신청이 완료되었습니다!</h2>
-          <p className="text-brand-muted mb-8">신청 과정: {course}</p>
+          <h2 className="text-lg sm:text-2xl font-bold mb-2">{name}님, 신청이 완료되었습니다!</h2>
+          <p className="text-sm sm:text-base text-brand-muted mb-8">신청 과정: {course}</p>
 
           <div className="bg-sage-50 rounded-xl p-6 text-left space-y-3 mb-6">
             <h3 className="font-bold text-lg flex items-center gap-2">
@@ -68,8 +66,7 @@ export default function CompletionScreen({ name, course, price, phone }) {
           </div>
 
           <div className="bg-warm-50 rounded-xl p-5 text-left space-y-2 text-sm mb-6">
-            <p className="font-semibold">📌 입금자명: {depositorName}</p>
-            <p className="text-brand-muted">예) 박선례0831</p>
+            <p className="font-semibold">📌 입금자명: 신청자 본인</p>
           </div>
 
           <div className="text-sm text-brand-muted space-y-1">

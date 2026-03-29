@@ -27,7 +27,7 @@ export default function TargetAudience() {
               <span className="text-[13px] font-semibold text-gray-300 tabular-nums flex-shrink-0 w-6">
                 {String(i + 1).padStart(2, '0')}
               </span>
-              <p className="text-[17px] text-gray-700 leading-snug">{text}</p>
+              <p className="text-[14px] sm:text-[17px] text-gray-700 leading-snug">{text}</p>
             </div>
           ))}
         </div>

@@ -12,7 +12,7 @@ export default function Hero() {
           <span className="text-brand-primary">새로운 AI 세상</span>
         </h1>
 
-        <p className="text-lg sm:text-xl text-brand-muted mb-10 leading-relaxed">
+        <p className="text-base sm:text-xl text-brand-muted mb-10 leading-relaxed">
           Google Opal · AI Studio로 시작하는 바이브코딩
         </p>
 

@@ -69,6 +69,7 @@ export default function Contact() {
                 <Phone className="w-4 h-4" />
                 010-3223-0831
               </a>
+              <p className="mt-4 text-sm text-brand-muted">한국평생교육 HRD 진흥협회<br />(전주시 오공로 49, 4층)</p>
             </div>
           </div>
 

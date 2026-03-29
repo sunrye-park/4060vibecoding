@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-50: #FFF8F0;
+  --color-warm-100: #FFEDD5;
+  --color-warm-200: #FED7AA;
+  --color-warm-300: #FDBA74;
+  --color-warm-400: #FB923C;
+  --color-warm-500: #F97316;
+  --color-warm-600: #EA580C;
+  --color-warm-700: #C2410C;
+  --color-warm-800: #9A3412;
+  --color-warm-900: #7C2D12;
+
+  --color-sage-50: #F0F5F0;
+  --color-sage-100: #DCE8DC;
+  --color-sage-200: #B5CEB5;
+  --color-sage-300: #8DB58D;
+  --color-sage-400: #6B9B6B;
+  --color-sage-500: #4D7C4D;
+  --color-sage-600: #3D633D;
+  --color-sage-700: #2E4A2E;
+  --color-sage-800: #1F321F;
+  --color-sage-900: #0F190F;
+
+  --color-brand-primary: #4D7C4D;
+  --color-brand-secondary: #F97316;
+  --color-brand-bg: #FFFBF5;
+  --color-brand-text: #1F2937;
+  --color-brand-muted: #6B7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  color: var(--color-brand-text);
+  background-color: var(--color-brand-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}

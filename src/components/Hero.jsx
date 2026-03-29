@@ -28,7 +28,7 @@ export default function Hero() {
 
         <p className="mt-5 text-sm text-gray-400 leading-relaxed">
           교육일시 : 4월 11일(토)&amp;18일(토) 1시~5시 · 총 8시간<br />
-          교육장소 : 한국평생교육 HRD 진흥협회(전주시 오공로 49, 4층)
+          교육장소 : 한국평생교육 HRD 진흥협회<br />(전주시 오공로 49, 4층)
         </p>
       </div>
     </section>

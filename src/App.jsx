@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Intro from './components/Intro'
 import CourseInfo from './components/CourseInfo'
 import TargetAudience from './components/TargetAudience'
 import Instructor from './components/Instructor'
@@ -13,6 +14,7 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Hero />
+      <Intro />
       <CourseInfo />
       <TargetAudience />
       <Instructor />

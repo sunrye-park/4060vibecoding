@@ -12,7 +12,7 @@ const sessions = [
     title: 'Google AI Studio 실습',
     subtitle1: 'AI와 바이브코딩',
     subtitle2: '— 나를 표현하는 반응형 웹앱 만들기',
-    date: '4월 18일(토)',
+    date: '4월 12일(일)',
     time: '오후 1시 ~ 5시',
   },
 ]

@@ -18,10 +18,12 @@ export default function Instructor() {
           />
           <div>
             <p className="text-[22px] font-bold text-gray-900 mb-0.5">박선례</p>
-            <p className="text-[17px] text-gray-400 leading-snug">
-              AI활용 전문강사 · AI교육부장
+            <p className="text-[14px] text-gray-400 leading-snug">
+              <strong className="text-gray-600">AI활용 전문강사</strong> · 글로컬빌리지협동조합 대표
             </p>
-            <p className="text-[12px] text-gray-400 mt-0.5">한국평생교육 HRD 진흥협회</p>
+            <p className="text-[14px] text-gray-400 mt-0.5">
+              한국평생교육 HRD 진흥협회 <strong className="text-gray-500">AI교육부장</strong>
+            </p>
           </div>
         </div>
 

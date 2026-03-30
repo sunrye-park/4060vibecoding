@@ -12,7 +12,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-base sm:text-xl text-brand-muted mb-10 leading-relaxed">
-          Google Opal · AI Studio로 시작하는 바이브코딩
+          코딩 몰라도 OK!<br />
+          구글 AI와 대화로 완성하는 나만의 자동화 &amp; 웹앱
         </p>
 
         <a

@@ -82,7 +82,7 @@ export default function RegistrationForm() {
     : `${COURSE.price.toLocaleString()}원`
 
   return (
-    <section id="register" className="py-16 px-4 bg-white border-t border-gray-100">
+    <section id="register" className="py-16 px-6 bg-white border-t border-gray-100">
       <div className="max-w-md mx-auto">
 
         {/* 섹션 타이틀 */}

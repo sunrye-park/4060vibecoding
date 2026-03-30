@@ -7,7 +7,7 @@ const items = [
 
 export default function TargetAudience() {
   return (
-    <section className="py-16 px-4 bg-gray-50 border-t border-gray-100">
+    <section className="py-16 px-6 bg-gray-50 border-t border-gray-100">
       <div className="max-w-md mx-auto">
 
         {/* 헤더 */}

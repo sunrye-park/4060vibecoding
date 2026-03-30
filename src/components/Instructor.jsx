@@ -1,6 +1,6 @@
 export default function Instructor() {
   return (
-    <section id="instructor" className="py-16 px-4 bg-white border-t border-gray-100">
+    <section id="instructor" className="py-16 px-6 bg-white border-t border-gray-100">
       <div className="max-w-md mx-auto">
 
         {/* 헤더 */}

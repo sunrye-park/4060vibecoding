@@ -45,7 +45,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-8 px-4">
+    <section id="contact" className="py-8 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-12">문의하기</h2>
 

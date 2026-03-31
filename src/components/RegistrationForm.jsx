@@ -73,7 +73,7 @@ export default function RegistrationForm() {
   }
 
   if (completed) {
-    const price = form.discount ? Math.floor(COURSE.price * 0.5) : COURSE.price
+    const price = form.discount ? Math.floor(COURSE.price * 0.9) : COURSE.price
     return <CompletionScreen name={form.name} course={COURSE.label} price={price} phone={form.phone} />
   }
 

@@ -20,7 +20,7 @@ export default function Hero() {
           href="#register"
           className="inline-flex items-center gap-2 bg-brand-primary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-sage-600 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
         >
-          지금 신청하기
+          지금 신청하기 (선착순 20명)
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>

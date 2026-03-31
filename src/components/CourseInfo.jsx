@@ -1,6 +1,6 @@
 const sessions = [
   {
-    number: '1회차',
+    number: '1교시',
     title: 'Google Opal 실습',
     subtitle1: '반복 업무는 AI에게',
     subtitle2: '— 나를 위한 자동화 완성',
@@ -8,10 +8,10 @@ const sessions = [
     time: '오후 1시 ~ 5시',
   },
   {
-    number: '2회차',
+    number: '2교시',
     title: 'Google AI Studio 실습',
     subtitle1: 'AI와 바이브코딩',
-    subtitle2: '— 나를 표현하는 반응형 웹앱 만들기',
+    subtitle2: '— 나를 소개하는 반응형 웹앱 만들기',
     date: '4월 12일(일)',
     time: '오후 1시 ~ 5시',
   },
@@ -43,7 +43,6 @@ export default function CourseInfo() {
                 <p className="text-[17px] text-gray-500 mb-2 leading-snug">
                   {s.subtitle1}<br className="sm:hidden" />{s.subtitle2}
                 </p>
-                <p className="text-[15px] text-gray-400">{s.date} · {s.time} (4시간)</p>
               </div>
             </div>
           ))}

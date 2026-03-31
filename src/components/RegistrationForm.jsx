@@ -3,7 +3,7 @@ import { submitRegistration } from '../lib/webhook'
 import PrivacyModal from './PrivacyModal'
 import CompletionScreen from './CompletionScreen'
 
-const COURSE = { label: 'Google AI 바이브코딩 (1회차 + 2회차)', price: 200000 }
+const COURSE = { label: 'Google AI 바이브코딩 (1회차 + 2회차)', price: 100000 }
 const PHONE_REGEX = /^010-\d{4}-\d{4}$/
 
 function formatPhone(value) {
@@ -57,7 +57,7 @@ export default function RegistrationForm() {
     if (Object.keys(errs).length > 0) return
     setSubmitting(true)
     try {
-      const price = form.discount ? Math.floor(COURSE.price * 0.5) : COURSE.price
+      const price = form.discount ? Math.floor(COURSE.price * 0.9) : COURSE.price
       await submitRegistration({
         name: form.name.trim(), phone: form.phone, email: form.email.trim(),
         course: COURSE.label, discount: form.discount,
@@ -78,7 +78,7 @@ export default function RegistrationForm() {
   }
 
   const displayPrice = form.discount
-    ? `${(COURSE.price * 0.5).toLocaleString()}원`
+    ? `${(COURSE.price * 0.9).toLocaleString()}원`
     : `${COURSE.price.toLocaleString()}원`
 
   return (
@@ -98,7 +98,7 @@ export default function RegistrationForm() {
         <div className="flex items-center justify-between py-3 border-t border-gray-100 mb-0">
           <div>
             <p className="text-[17px] font-medium text-gray-900">Google AI 바이브코딩</p>
-            <p className="text-[15px] text-gray-400 mt-0.5">1회차 · 2회차 포함 · 총 8시간</p>
+            <p className="text-[15px] text-gray-400 mt-0.5">원데이클래스 · 총 8시간</p>
           </div>
           <p className="text-[17px] font-bold text-gray-900 tabular-nums">{displayPrice}</p>
         </div>
@@ -111,7 +111,7 @@ export default function RegistrationForm() {
               className="w-3.5 h-3.5 rounded-sm border-gray-300 text-gray-900 focus:ring-0 focus:ring-offset-0" />
             <span className="text-[17px] text-gray-500 group-hover/check:text-gray-700 transition-colors">
               생활창의AI학습지도사 수료자
-              <span className="ml-1 text-gray-900 font-medium">— 50% 할인</span>
+              <span className="ml-1 text-gray-900 font-medium">— 10% 할인</span>
             </span>
           </label>
         </div>

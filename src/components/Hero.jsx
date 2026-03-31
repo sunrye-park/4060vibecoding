@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="relative min-h-[90vh] flex items-center justify-center bg-white pt-16 pb-16">
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
         <div className="inline-block mb-6 mt-20 px-4 py-1.5 bg-sage-100 text-sage-700 rounded-full text-sm font-medium">
-          Google AI 바이브코딩
+          Google AI 바이브코딩 x 원데이클래스
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-tight mb-6 text-brand-text tracking-tight">
@@ -27,7 +27,7 @@ export default function Hero() {
         </a>
 
         <p className="mt-5 text-sm text-gray-400 leading-relaxed">
-          교육일시 : 4월 11일(토)&amp;12일(일) 1시~5시 · 총 8시간<br />
+          교육일시 : 4월 11일(토) 9시~18시 (8시간, 점심 13시~14시)<br />
           교육장소 : 한국평생교육 HRD 진흥협회<br />(전주시 오공로 49, 4층)
         </p>
       </div>

@@ -16,6 +16,8 @@ export default function Hero() {
           구글 AI와 대화로 완성하는 나만의 자동화 &amp; 웹앱
         </p>
 
+        <p className="text-[15px] font-semibold text-gray-600 mb-4">준비물 : 노트북, 구글계정</p>
+
         <a
           href="#register"
           className="inline-flex items-center gap-2 bg-brand-primary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-sage-600 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0"
